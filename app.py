@@ -12,7 +12,7 @@ st.markdown("""
 app.add_app("Home", home.app)
 app.add_app("Modelo Random Forest", model_random_forest.app)
 app.add_app("Modelo Regresión Logística", model_regresion_logistica.app)
-app.add_app("Modelo SVM de Regresión", model_svm.app)
+app.add_app("Modelo SVM de Clasificación", model_svm.app)
 app.add_app("Modelo basado en la librería Prophet", model_lib_prophet.app)
 app.add_app("Caso de asociación clustering", model_clustering.app)
 # The main app
